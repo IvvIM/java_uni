@@ -14,6 +14,6 @@ public class Main {
         list.add(7); //7
 
         list.remove(4);
-        System.out.print(list.contains(4));
+        System.out.print(list.contains(123213));
     }
 }

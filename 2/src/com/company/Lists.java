@@ -119,18 +119,16 @@ package com.company;
             size--;
         }
 
-        public T contains(int index){
-            if(size-1 < index){
-                System.out.print("Index larger than list size");
-                return null;
-            }
-
+        public boolean contains(T sd){
             Node n = head;
-            for(int i = 0; i < index; i++){
+            while(n.next != null) {
+                if(n.data == sd) {
+                    return true;
+                }
                 n = n.next;
             }
+            return false;
 
-            return (T) n.data;
         }
      }
 }
