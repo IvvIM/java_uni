@@ -15,5 +15,11 @@ public class Main {
 
         list.remove(4);
         System.out.print(list.contains(123213));
+
+        String a = "Kak";
+        Lists.SerializationUtil<String> ser = new Lists.SerializationUtil<>(a);
+
+        ser.GetObjectFromFile("D://1.txt");
+        String b = ser.GetOutData();
     }
 }

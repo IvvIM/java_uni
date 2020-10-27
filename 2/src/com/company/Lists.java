@@ -1,6 +1,8 @@
 package com.company;
 
- class Lists {
+import java.io.*;
+
+class Lists {
     public static class ArrayList<T> {
         private int init_Size;
         private int i = 0;
@@ -12,8 +14,7 @@ package com.company;
         }
 
         public ArrayList() {
-            init_Size = 10;
-            arr = new Object[init_Size];
+            this(10);
         }
 
         public int size() {
@@ -128,7 +129,44 @@ package com.company;
                 n = n.next;
             }
             return false;
-
         }
+     }
+
+     public static class SerializationUtil<T> implements Serializable {
+        private T inData;
+        private T outData;
+
+         public SerializationUtil(T data)
+         {
+             this.inData = data;
+         }
+
+         public T GetOutData() {
+             return outData;
+         }
+
+         public void InFile(String file) throws IOException {
+             ObjectOutputStream objectSteam = null;
+             try {
+                 objectSteam = new ObjectOutputStream(new FileOutputStream(file));;
+                 objectSteam.writeObject(this.inData);
+             } catch (IOException e) {
+                 e.printStackTrace();
+             }
+             finally {
+                 objectSteam.close();
+             }
+         }
+
+         public void GetObjectFromFile(String file)
+         {
+             try {
+                 ObjectInputStream objectInput = new ObjectInputStream(new FileInputStream(file));
+                 this.outData = (T) objectInput.readObject();
+
+             } catch (IOException | ClassNotFoundException e) {
+                 e.printStackTrace();
+             }
+         }
      }
 }

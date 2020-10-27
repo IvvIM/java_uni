@@ -84,11 +84,11 @@ public class Tasks {
             step = IO.In.numInt();
         }
 
-        private int[] fillArray(int begin, int end, int step)
+        private strictfp int[] fillArray(int begin, int end, int step)
         {
             if(begin >= end || step > (end - begin)) return null;
 
-            size = (int)((float)(end/step) - (float)(begin/step));
+            size = end/step - begin/step;
 
             if(begin%step == 0)
                 size+=1;
