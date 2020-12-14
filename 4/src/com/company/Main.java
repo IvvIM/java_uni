@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Main {
 
-    public static double findUniqe(double arr[]) {
+    public static double findUniqe(double[] arr) {
         if(arr.length <= 2)
             return 0;
 
@@ -12,13 +12,13 @@ public class Main {
         Arrays.sort(arr);
         if(arr[0] != arr[1])
             uniqe = arr[0];
-        else if (arr[arr.length-1] != arr[1])
+        else
             uniqe = arr[arr.length-1];
 
         return uniqe;
     }
 
-    public static strictfp void sortArray(double arr[]) {
+    public static strictfp void sortArray(double[] arr) {
         for(int i = 0; i < arr.length; i++) {
             if(arr[i]%2 != 0) {
                 for(int j = i; j < arr.length; j++) {

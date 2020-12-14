@@ -60,7 +60,7 @@ public class Main {
     }
 
     public static void Task2(int n) {
-      int arr[] = new int[n];
+      int[] arr = new int[n];
       int n2 = Math.round(n/2);
       int k = 0;
 
@@ -82,8 +82,8 @@ public class Main {
 
     public static  void Task3() {
         Scanner in = new Scanner(System.in);
-        String entstr = null;
-        String str = "";
+        StringBuilder entstr = new StringBuilder();
+        StringBuilder str = new StringBuilder("a, a1, a2, a3");
         int c = 0;
 
         while(true) {
@@ -94,20 +94,20 @@ public class Main {
             switch(c) {
                 case 1: {
                     System.out.print("Enter a new valuse:\n");
-                    entstr = in.next();
+                    entstr.append(in.next());
                     if(entstr.charAt(0) == '+') {
-                        if(str == "")
-                            str += entstr.substring(1);
+                        if(str.isEmpty())
+                            str.append(entstr.substring(1));
                         else
-                            str += ", " + entstr.substring(1);
-                        entstr = null;
+                            str.append(", ").append(entstr.substring(1));
+                        entstr.delete(0, entstr.length());
                     }
                     else if(entstr.charAt(0) == '-') {
                         if(str.indexOf(entstr.substring(1)) == 0)
-                            str = str.substring(entstr.length() + 1);
+                            str.delete(str.indexOf(entstr.substring(1)), entstr.length()+1);
                         else
-                            str = str.substring(0, str.indexOf(entstr.substring(1)) - 2) + str.substring(str.indexOf(entstr.substring(1)) - 1 + entstr.length());
-                        entstr = null;
+                            str.delete(str.indexOf(entstr.substring(1)) - 2, str.indexOf(entstr.substring(1)) + entstr.length() - 1);
+                        entstr.delete(0, entstr.length());
                     }
                     else {
                         System.out.print("ERROR\n");
@@ -129,6 +129,6 @@ public class Main {
     public static void main(String[] args) {
         Task3();
         Task2(14);
-	    Task1("100+10*2/5*113/12*8973");
+	    Task1("1+2*2/5");
     }
 }

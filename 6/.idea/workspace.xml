@@ -37,19 +37,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -66,6 +53,9 @@
       <updated>1604258619503</updated>
       <workItem from="1604258620593" duration="3386000" />
       <workItem from="1604329670398" duration="3452000" />
+      <workItem from="1604383240401" duration="324000" />
+      <workItem from="1604386346935" duration="767000" />
+      <workItem from="1604950739189" duration="747000" />
     </task>
     <servers />
   </component>
@@ -73,41 +63,56 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1604338481831">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1604952217371">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604338481831" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1604338481831">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604952217371" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1604952217371">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604338481831" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1604338481831">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604952217371" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1604952217371">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604338481831" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1604338481831">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604952217371" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1604952217371">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604338481831" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1604338481828">
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604952217371" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1604952217371">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604338481828" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1604338481828">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604952217371" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1604952217371">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604338481828" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1604338481828">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604952217371" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1604952217371">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604338481828" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1604338481828">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604952217371" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1604952217371">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604338481828" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604952217371" />
     <state x="735" y="166" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604259288238">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="735" y="166" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604259288238" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1604952183407">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604952183407" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

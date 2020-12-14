@@ -39,6 +39,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -58,6 +71,8 @@
       <workItem from="1604094133210" duration="4700000" />
       <workItem from="1604161105257" duration="9334000" />
       <workItem from="1604180604155" duration="1766000" />
+      <workItem from="1604385952725" duration="392000" />
+      <workItem from="1604952220688" duration="1842000" />
     </task>
     <servers />
   </component>
@@ -69,38 +84,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604093746448" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1604179179294">
+    <state x="690" y="266" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1604952460651">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604179179294" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1604179179294">
+    <state x="690" y="266" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604952460651" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1604954063676">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604179179294" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1604179179294">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604954063676" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1604954063676">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604179179294" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1604179179294">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604954063676" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1604954063675">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604179179294" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1604179179291">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604954063675" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1604954063676">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604179179291" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1604179179291">
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604954063676" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1604954063676">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604179179291" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1604179179291">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604954063676" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1604954063676">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604179179291" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1604179179291">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604954063676" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1604954063676">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604179179291" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604954063676" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1604954063676">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604954063676" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1604096181923">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -109,6 +128,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="551" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1604182409414" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604952599087">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604952599087" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/5$Main.ic" NAME="Main Coverage Results" MODIFIED="1604096778119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
