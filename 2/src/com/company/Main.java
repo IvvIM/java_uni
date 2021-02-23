@@ -1,5 +1,7 @@
 package com.company;
 
+import java.io.IOException;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -16,9 +18,13 @@ public class Main {
         list.remove(4);
         System.out.print(list.contains(123213));
 
-        String a = "Kak";
-        Lists.SerializationUtil<String> ser = new Lists.SerializationUtil<>(a);
-
+        String a = "NULL";
+        Lists.SerializationUtil<String> ser = new Lists.SerializationUtil<String>(a);
+        try {
+            ser.InFile("D://1.txt");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         ser.GetObjectFromFile("D://1.txt");
         String b = ser.GetOutData();
     }

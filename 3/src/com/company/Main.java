@@ -16,12 +16,6 @@ class NumberAfterCcomparator implements Comparator<String> {
 }
 
 public class Main {
-    public static void helpForSort(String f) {
-        char a = f.charAt(0);
-        Character.toUpperCase(a);
-        System.out.print(a + f.substring(1) + "\n");
-    }
-
     public static void SortOnlyC(List<String> list)
     {
         list.stream().filter(a -> a.charAt(0) == 'c').sorted(new NumberAfterCcomparator()).map(String::toUpperCase).forEach(System.out::println);
@@ -49,7 +43,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-	    List<String> myList = Arrays.asList("a1", "c89412896", "b1", "c1512", "c12190", "a1", "c5", "b1", "c0", "d1");
+	    List<String> myList = Arrays.asList("a1", "c111", "b1", "c1512", "c12190", "a1", "c5", "b1", "c0", "d1");
         SortOnlyC(myList);
 
         Task2(10);
